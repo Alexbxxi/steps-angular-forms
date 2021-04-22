@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Open-sans-bold';
+    src: url('../../../assets/fonts/Open-sans-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Open-sans-light';
+    src: url('../../../assets/fonts/OpenSans-Light.ttf');
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open-sans-bold';
+    font-size: xx-large;
+}
+
+label {
+    font-family: 'Open-sans-bold';
+    font-size: small;
+}
+
+input {
+    font-family: 'Open-sans-light';
+}
+
+select {
+    font-family: 'Open-sans-light';
+}
+
+p {
+    font-family: 'Open-sans-light'; 
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.forms {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 30px 40px;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0 3% 20px 3%;
+    position: relative;
+}
+
+.bs-stepper-circle {
+    background-color: #9C2348;
+    border-color: #5A5C64;
+}
+
+.line {
+    height: 2px;
+    background-color: #5A5C64;
+}
+
+.bs-stepper-label {
+    font-size: smaller;
+    font-family: 'Open-sans-bold';
+}
+
+.bs-stepper-content {
+    transition: all 0.3s;
+}
+
+button {
+    font-family: 'Open-sans-bold';
+    background-color: #9C2348;
+    color: #FFFF;
+}
+
+#btnGroup {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        text-align: center;
+        font-family: 'Open-sans-bold';
+        font-size: x-large;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
